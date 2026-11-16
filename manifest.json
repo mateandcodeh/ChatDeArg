@@ -1,0 +1,44 @@
+{
+  "name": "Chat de Argentina",
+  "short_name": "ChatArg",
+  "description": "Chat argentino con salas por provincias, comunidades, música, cine, gaming y más. Solo +18.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0f0f14",
+  "theme_color": "#0f0f14",
+  "lang": "es",
+  "dir": "ltr",
+  "categories": ["social", "communication"],
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "General",
+      "short_name": "General",
+      "description": "Ir a la sala General",
+      "url": "./?room=general",
+      "icons": [{ "src": "icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Música",
+      "short_name": "Música",
+      "description": "Ir a la sala Música",
+      "url": "./?room=musica",
+      "icons": [{ "src": "icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}
